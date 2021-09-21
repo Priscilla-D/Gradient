@@ -10,6 +10,9 @@
     "test": "cross-env NODE_PATH=./ mocha --require tests/.setup.js tests/**/*.test.js",
     "test:watch": "cross-env NODE_PATH=./ mocha --watch --require tests/.setup.js tests/**/*.test.js"
   },
+  "rules": {
+    "linebreak-style": ["error", "windows"]
+  },
   "devDependencies": {
     "@babel/core": "^7.14.6",
     "@babel/eslint-parser": "^7.14.7",
